@@ -7,6 +7,7 @@ Halo! Ini adalah catatan pembelajaran saya dalam membuat website dari nol. Setia
 1. [Navbar](01-navbar.md) - Membuat navigation bar yang fixed dan responsive
 2. [Media Queries](02-media-queries.md) - Membuat website responsive untuk berbagai ukuran layar
 3. [Menu Sidebar](03-menu-sidebar.md) - Styling menu sidebar dan fitur auto-close
+4. [Hero Section](04-hero-section.md) - Banner utama dengan background image dan CTA button
 
 ---
 
