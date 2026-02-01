@@ -80,3 +80,44 @@ body {
 #hamburger-menu {
 	display: none;
 }
+
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+	html {
+		font-size: 75%;
+	}
+}
+
+/* Tablet */
+@media (max-width: 758px) {
+	html {
+		font-size: 62.5%;
+	}
+
+	#hamburger-menu {
+		display: inline-block;
+	}
+
+	.navbar .navbar-nav {
+		position: absolute;
+		top: 100%;
+		right: -100%;
+		background-color: #fff;
+		width: 30rem;
+		height: 100vh;
+		transition: 0.3s;
+	}
+
+	.navbar .navbar-nav.active {
+		right: 0;
+	}
+}
+
+/* Mobile */
+@media (max-width: 450px) {
+	html {
+		font-size: 55%;
+	}
+}
