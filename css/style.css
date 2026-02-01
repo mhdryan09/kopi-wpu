@@ -113,6 +113,22 @@ body {
 	.navbar .navbar-nav.active {
 		right: 0;
 	}
+
+	.navbar .navbar-nav a {
+		color: var(--bg);
+		display: block;
+		margin: 1.5rem;
+		font-size: 2rem;
+		padding: 0.5rem;
+	}
+
+	.navbar .navbar-nav a::after {
+		transform-origin: 0 0;
+	}
+
+	.navbar .navbar-nav a:hover::after {
+		transform: scaleX(0.2);
+	}
 }
 
 /* Mobile */
