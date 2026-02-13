@@ -139,6 +139,52 @@ body {
 	box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
+/* About Section */
+.about {
+	padding: 8rem 7% 1.4rem;
+	/* 8rem (atas) 7%(kiri-kanan) dan 1.4rem(bawah) */
+}
+
+.about h2 {
+	text-align: center;
+	font-size: 2.6rem;
+	margin-bottom: 3rem;
+}
+
+.about h2 span {
+	color: var(--primary);
+}
+
+.about .row {
+	display: flex;
+}
+
+.about .row .about-img {
+	flex: 1 1 45rem;
+	/*1 flex grow , 1 flex-shrink dan 45rem ukuran nya */
+}
+
+.about .row .about-img img {
+	width: 100%;
+}
+
+.about .row .content {
+	flex: 1 1 35rem;
+	padding: 0 1rem;
+}
+
+.about .row .content h3 {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+}
+
+.about .row .content p {
+	margin-bottom: 0.8rem;
+	font-size: 1.4rem;
+	font-weight: 100;
+	line-height: 1.6;
+}
+
 /* Media Queries */
 
 /* Laptop */
@@ -186,6 +232,29 @@ body {
 
 	.navbar .navbar-nav a:hover::after {
 		transform: scaleX(0.2);
+	}
+
+	.about .row {
+		flex-wrap: wrap;
+	}
+
+	.about .row .about-img img {
+		height: 24rem;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	.about .row .content {
+		padding: 0;
+	}
+
+	.about .row .content h3 {
+		margin-top: 1rem;
+		font-size: 2rem;
+	}
+
+	.about .row .content p {
+		font-size: 1.6rem;
 	}
 }
 
